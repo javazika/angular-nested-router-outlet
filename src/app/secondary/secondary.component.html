@@ -1,0 +1,10 @@
+<div class="row">
+  <nav class="col-3 nav flex-column">
+    <a class="nav-link active" [routerLink]="[ '/secondary']">Secondary</a>
+    <a class="nav-link active" [routerLink]="[ '/secondary/module1']">Module 1</a>
+    <a class="nav-link" [routerLink]="[ '/secondary/module2']">Module 2</a>
+  </nav>
+  <div class="col-9">
+    <router-outlet></router-outlet>
+  </div>
+</div>
