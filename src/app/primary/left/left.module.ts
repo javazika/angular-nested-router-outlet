@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'child1',
-    // component: LeftComponent,
+    component: LeftComponent,
     loadChildren: () => import('./child1/child1.module').then(m => m.Child1Module)
   },
   {
